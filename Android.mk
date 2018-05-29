@@ -11,6 +11,8 @@ LOCAL_STATIC_ANDROID_LIBRARIES := androidx.viewpager_viewpager
 
 LOCAL_JNI_SHARED_LIBRARIES := libjni_terminal
 
+LOCAL_AAPT_FLAGS := --auto-add-overlay
+
 # TODO: enable proguard once development has settled down
 #LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 LOCAL_PROGUARD_ENABLED := disabled
