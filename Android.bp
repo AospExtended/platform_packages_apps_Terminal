@@ -6,6 +6,7 @@ android_app {
     srcs: ["src/**/*.java"],
     static_libs: ["androidx.viewpager_viewpager"],
     jni_libs: ["libjni_terminal"],
+    aaptflags: ["--auto-add-overlay"],
     // TODO: enable proguard once development has settled down
     //LOCAL_PROGUARD_FLAG_FILES := proguard.flags
     optimize: {
